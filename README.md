@@ -1,22 +1,19 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [MATCH BREAKER] 🎯
+# MATCH BREAKER 🎯
 
 
 ## Basic Details
-### Team Name: [ERROR]
+### Team Name: ERROR
 
 
 ### Team Members
-- Team Lead: [AJISHNA JAISON] - [College of engineering Attingal]
-- Member 2: [KRISHNA M J] - [College of engineering Attigal]
+- Team Lead: AJISHNA JAISON - College of engineering Attingal
+- Member 2: KRISHNA M J - College of engineering Attigal
 
 ### Project Description
-[The MATCH BREAKER is a website that  tell two people the fact  they are comparitable on and their heart breaker....]
-
-### The Problem (that doesn't exist)
-[we always wonder if our loves ones and us comparitable or not ....let us find it]
+The MATCH BREAKER is a website that  tell two people the fact  they are comparitable on and their heart breaker....
 
 ### The Solution (that nobody asked for)
 this app takes two names, brews them in a pot of chaos, charm, and cheekiness, and spits out two brutally honest metrics:
@@ -40,9 +37,6 @@ NILL
 # Run
 Website hosting
 
-### Project Documentation
-For Software:
-
 # Screenshots (Add at least 3)
 
 ## Home Page - Screenshot 1
@@ -57,28 +51,6 @@ For Software:
 
 <img width="1024" height="512" alt="Home Page" src="Screenshot 2025-08-02 160920.png" />
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
