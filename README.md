@@ -52,8 +52,7 @@ Website hosting
 
 ### Project Demo
 # Video
-<video width="1024" height="512" controls>
-  <source src="8_2_2025%2C%204_25_01%20PM%20-%20Screen%20-%20Untitled%20video.webm" type="video/webm">
+   https://drive.google.com/file/d/1FzyGL8RfNBRo_6XB5uc_71YR_a-qah36/view?usp=sharing
   <h3>Say something about this video</h3>
 </video>
 ⚙ Process of Working
