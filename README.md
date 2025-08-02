@@ -31,8 +31,6 @@ For Software:
 
 ### Implementation
 For Software:Vs code ,GITHUB
-# Installation
-NILL
 
 # Run
 Website hosting
