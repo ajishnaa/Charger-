@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Name Match Breaker 💔💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(135deg, #fcb7b7, #ffdde1, #ffe5ec, #efbaee, #ef9dc2);
+      background-size: 400% 400%;
+      animation: gradientMove 10s ease infinite;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    @keyframes gradientMove {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.15);
+      padding: 40px 30px;
+      border-radius: 25px;
+      text-align: center;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+      max-width: 420px;
+      width: 90%;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      background: linear-gradient(to right, #c41158, #f2a6cc, #ff99cc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 2px 2px 8px rgba(255, 0, 102, 0.5), 0px 0px 12px #fff;
+      animation: glowText 3s ease-in-out infinite alternate;
+    }
+
+    p {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #ffeef8;
+      text-shadow: 2px 2px 5px rgba(255, 0, 102, 0.4), 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+
+    @keyframes glowText {
+      from {
+        text-shadow: 2px 2px 8px rgba(255, 0, 102, 0.3), 0 0 5px #fff;
+      }
+      to {
+        text-shadow: 2px 2px 16px rgba(255, 0, 102, 0.8), 0 0 15px #ffffff;
+      }
+    }
+
+    .input-box {
+      margin-top: 25px;
+    }
+
+    input {
+      padding: 12px;
+      margin: 10px 5px;
+      width: 42%;
+      border: 2px solid #ff8bb3;
+      border-radius: 12px;
+      font-size: 1rem;
+      color: #333;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    button {
+      padding: 12px 25px;
+      margin: 8px 5px;
+      border: 2px solid #ffb6c1;
+      background-color: #ff4e50;
+      color: white;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease, border-color 0.3s ease;
+      box-shadow: 0 5px 15px rgba(255, 78, 80, 0.4);
+    }
+
+    button:hover {
+      background-color: #ff1f3d;
+      border-color: #ff8bb3;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      background: linear-gradient(to right, #ffe1f5, #ffc1de);
+      padding: 18px;
+      border-radius: 18px;
+      color: #e60073;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px #fff;
+      box-shadow: 0 8px 20px rgba(255, 0, 102, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💔 Name Match Breaker 💖</h1>
+    <p>Enter two names to see why they're just NOT (or totally ARE) meant to be 😂</p>
+    <div class="input-box">
+      <input type="text" id="name1" placeholder="Name 1" />
+      <input type="text" id="name2" placeholder="Name 2" />
+      <br />
+      <button onclick="breakBond()">💔 Break the Bond</button>
+      <button onclick="matchThem()">💖 Match Them</button>
+    </div>
+    <div id="result" class="result"></div>
+  </div>
+
+  <script>
+    function breakBond() {
+      const name1 = document.getElementById("name1").value.trim();
+      const name2 = document.getElementById("name2").value.trim();
+      const result = document.getElementById("result");
+
+      if (!name1 || !name2) {
+        result.innerText = "Please enter both names to break this tragedy!";
+        return;
+      }
+
+      const reasons = [
+        "They argue over pineapple on pizza 🍍🍕",
+        "One likes cats, the other is a dog person 🐱🐶",
+        "Horoscopes said: Nope ❌",
+        "Netflix fights: One loves horror, the other wants romcom 😬",
+        "They couldn’t even agree on a couple name 😂",
+        "Their last date ended with ‘Let’s just be friends’ 🥲",
+        "One says 'data', the other says 'daataa' 📢😑"
+      ];
+
+     const random = Math.floor(Math.random() * reasons.length);
+result.innerText = `${name1} & ${name2}? ${reasons[random]}`;
+
+    }
+
+    function matchThem() {
+      const name1 = document.getElementById("name1").value.trim();
+      const name2 = document.getElementById("name2").value.trim();
+      const result = document.getElementById("result");
+
+      if (!name1 || !name2) {
+        result.innerText = "We need both names for love to blossom 💐";
+        return;
+      }
+
+      const matches = [
+        "They finish each other's... sandwiches 🥪",
+        "When they look into each other’s eyes, WiFi connects instantly 📶💘",
+        "Their love story is powered by memes & Maggi 🍜😂",
+        "Perfect match: One forgets, the other reminds 💡",
+        "Even their Spotify playlists love each other 🎧💖",
+        "They met in a bug fix and stayed for the patch notes 🐞💾",
+        "When they hug, the world resets to factory settings 💞"
+      ];
+
+     const random = Math.floor(Math.random() * matches.length);
+result.innerText = `${name1} & ${name2}? ${matches[random]}`;
+
+    }
+  </script>
+</body>
+</html>

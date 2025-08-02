@@ -1,60 +1,61 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [MATCH BREAKER] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [ERROR]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [AJISHNA JAISON] - [College of engineering Attingal]
+- Member 2: [KRISHNA M J] - [College of engineering Attigal]
 
 ### Project Description
-[2-3 lines about what your project does]
+[The MATCH BREAKER is a website that  tell two people the fact  they are comparitable on and their heart breaker....]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[we always wonder if our loves ones and us comparitable or not ....let us find it]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+this app takes two names, brews them in a pot of chaos, charm, and cheekiness, and spits out two brutally honest metrics:
+-Compatibility Factor – The sweet stuff. The spark. The "aww that's cute!"
+- Breaker Factor – The spicy stuff. The "uh oh..." moments that might just ruin the vibe.
+
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- HTML
+- JAVA SCRIPT
+- CSS
 
 ### Implementation
-For Software:
+For Software:Vs code ,GITHUB
 # Installation
-[commands]
+NILL
 
 # Run
-[commands]
+Website hosting
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+## Home Page - Screenshot 1
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1024" height="512" alt="Home Page" src="Screenshot 2025-08-02 160823.png" />
+
+## Home Page - Screenshot 1
+
+<img width="1024" height="512" alt="Home Page" src="Screenshot 2025-08-02 161007.png" />
+
+## Home Page - Screenshot 1
+
+<img width="1024" height="512" alt="Home Page" src="Screenshot 2025-08-02 160920.png" />
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -81,17 +82,31 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+<video width="1024" height="512" controls>
+  <source src="8_2_2025%2C%204_25_01%20PM%20-%20Screen%20-%20Untitled%20video.webm" type="video/webm">
+  <h3>Say something about this video</h3>
+</video>
+⚙ Process of Working
 
-# Additional Demos
-[Add any extra demo materials/links]
+Here's how Match Breaker does its magic:
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+1. Input Names:
+The user enters two names — it could be a couple, friends, enemies, or even celebrity crushes. No one is safe.
 
+2. Name Magic Begins:
+The names are processed through a playful logic system (we won’t call it “random,” but... it might be).
+
+3. Generate Factors:
+-- Compatibility Factor: A fun score that represents how well the two names vibe together. Expect compliments, chaos, and a bit of romance.
+-- Breaker Factor: The opposite of sparks flying. This score digs into the potential drama, red flags, and name-based doom.
+
+4. Display Results:
+Both scores are shown on the screen with creative messages that make you laugh, cringe, or question your choices.
+
+5. Repeat as Needed:
+Try different names. Try your ex. Try your pet. Try your best friend’s situationship. It’s addictive.
+
+> *Disclaimer: Match Breaker is purely for fun and entertainment. Do not break up based on the breaker score (unless it’s really accurate… then maybe). 😉
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
